@@ -6,7 +6,8 @@
 
 Выводы всех команд приведены ниже (убрал часть вывода у Fedora, ну слишком длинный получился... ):
 
-``` vagrant@ubuntu2010:~/netology-14-2$ kubectl apply -f vault-pod.yml
+``` 
+vagrant@ubuntu2010:~/netology-14-2$ kubectl apply -f vault-pod.yml
 pod/14.2-netology-vault created 
 vagrant@ubuntu2010:~/netology-14-2$ kubectl get pod 14.2-netology-vault -o json | jq -c '.status.podIPs'
 [{"ip":"172.17.0.3"}] 
